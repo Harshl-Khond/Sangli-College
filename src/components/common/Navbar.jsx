@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown, Phone, Mail, MapPin } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
+import logo from '../../assets/logo.jpg';
 
 function cn(...inputs) {
   return twMerge(clsx(inputs));
@@ -58,7 +59,7 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src="/src/assets/logo.jpg" alt="Logo" className="w-12 h-12 object-contain" />
+            <img src={logo} alt="Logo" className="w-12 h-12 object-contain" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-academic-blue leading-tight uppercase">Prashaskiya Seva</span>
               <span className="text-xs text-gray-500 font-bold tracking-widest">MAHAVIDYALAY, SANGLI</span>

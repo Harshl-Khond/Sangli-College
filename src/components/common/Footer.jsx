@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, ExternalLink } from 'lucide-react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import logo from '../../assets/logo.jpg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +14,7 @@ const Footer = () => {
           {/* College Info */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src="/src/assets/logo.jpg" alt="Logo" className="w-10 h-10 object-contain" />
+              <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
               <span className="text-xl font-bold tracking-tight uppercase">Prashaskiya Seva Mahavidyalay</span>
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed">
