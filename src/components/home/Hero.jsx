@@ -26,7 +26,7 @@ const Hero = () => {
           <span className="inline-block px-4 py-1 bg-accent-gold text-academic-blue font-bold rounded-full mb-6 text-sm uppercase tracking-wider">
             Excellence in Education
           </span>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold mb-6 leading-tight">
             Shape Your Career in <br className="hidden sm:block" /> <span className="text-accent-gold uppercase">Administrative Services</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-slate-200 mb-10 leading-relaxed max-w-xl">
